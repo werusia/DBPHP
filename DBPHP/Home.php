@@ -1,27 +1,29 @@
 <html>
 	<head>
-		<title>Title of the document</title>
+		<title>Home</title>
 	</head>
-	<style type ="text/css">
-input[type="text"], textarea,  select, h1 {
-    width: 30%;
-    padding: 12px 20px;
-
-    box-sizing: border-box;
-    border-color: #99ccff;
-    border-radius: 90px;
-    background-color: #3CBC8D;
+	<style>
+.button {
+ background-color: #3CBC8D;
+    border: none;
     color: white;
-	text-align: center;
-	margin: 0 auto; 
-	width:700px;
-	text-align: center;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%
+	
 }
 </style>
 
 	<body>
-<h1><a href = "Insert.php"> Wprowadz dane do systemu</h1>
-<h1><a href = "Database_Table.php"> Tabela pracownikow</h1></a>
+<a href = "Insert.php" class="button"> Wprowadz dane do systemu</a><br/> 
+<a href = "Database_Table.php" class="button"> Tabela pracownikow</a>
 
 	</body>
 
